@@ -52,7 +52,7 @@ public class Complex {
 
     public String toString(Complex numBer){
         String sp = "";
-        sp = "Phần thực là: + "+numBer.realPart+ "\n" +"Phần ảo là: " + numBer.imaginaryPart;
+        sp = "Phần thực là: "+numBer.realPart+ "\n" +"Phần ảo là: " + numBer.imaginaryPart;
         return sp;
     }
 
